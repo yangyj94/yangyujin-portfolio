@@ -48,7 +48,7 @@ body.noneScroll {overflow: hidden;}
 /* common e */
 
 /* main s */
-#main {width: 100%; height: 100vh; background: url(/asset/img/main_bg2.jpg)no-repeat center/cover;}
+#main {width: 100%; height: 100vh; background: url(/yangyujin-portfolio/asset/img/main_bg2.jpg)no-repeat center/cover;}
 #main .bg_img {position: absolute; width: calc(100% - 100px); height: calc(100vh - 200px); top: 50%; transform: translateX(-50%) translateY(-50%); left: 50%; overflow: hidden;}
 .tilt {overflow: hidden;position: relative;width: 100%;height: 100%;margin: 0 auto;}
 .tilt__back, .tilt__front {width: 100%;height: 100%; background-position: 50% 50%;background-repeat: no-repeat;background-size: cover;-webkit-backface-visibility: hidden; backface-visibility: hidden;}
@@ -66,7 +66,7 @@ body.noneScroll {overflow: hidden;}
 #main .bt {position: absolute; font-size: 20px; color: rgba(0,0,0,0.8); right: 50px; bottom: 40px;}
 #main .scDown {position: absolute; bottom: 20px; left: 50%;transform: translateX(-50%);}
 #main .scDown span{display: inline-block;}
-#main .scDown span.ico {width: 22px; height: 33px; background: url("/asset/img/scroll.png")no-repeat center/contain;}
+#main .scDown span.ico {width: 22px; height: 33px; background: url("/yangyujin-portfolio/asset/img/scroll.png")no-repeat center/contain;}
 #main .scDown span.ico {animation: scrollAni 1.5s ease-in-out 0s infinite;}
 #main .scDown span.txt {font-size: 0;}
 
@@ -91,7 +91,7 @@ body.noneScroll {overflow: hidden;}
 /* about e */
 
 /* skill ability s */
-#skill-box {padding-top: 150px; background: url("/asset/img/skill_bg.jpg")no-repeat center/cover;}
+#skill-box {padding-top: 150px; background: url("/yangyujin-portfolio/asset/img/skill_bg.jpg")no-repeat center/cover;}
 #skill-box .ability { margin-top: 60px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
 #skill-box .ability .box {width: 15%;}
 #skill-box .ability .box .percent {width: 230px; height: 230px; border-radius: 115px; box-shadow: 0px 0px 25px rgba(0,0,0,0.6); position: relative;}
@@ -102,7 +102,7 @@ body.noneScroll {overflow: hidden;}
 #skill-box .etc .list .txt{font-size: 26px; color: #fff; display: inline-block;}
 #skill-box .etc .list p * {vertical-align: middle;}
 #skill-box .etc .list p {margin-left: 40px}
-#skill-box .etc .list .ico {width: 26px; height: 26px; display: inline-block; background: url("/asset/img/chk_wt.png")no-repeat center/contain; margin-left: 18px;}
+#skill-box .etc .list .ico {width: 26px; height: 26px; display: inline-block; background: url("/yangyujin-portfolio/asset/img/chk_wt.png")no-repeat center/contain; margin-left: 18px;}
  #skill-box{ height: 100vh; opacity: 0;   margin-top: -30vh;} 
 
  /* ani */
@@ -128,7 +128,7 @@ body.noneScroll {overflow: hidden;}
 .tit-box .tit {position: absolute; top: 50%; left: 50%; width: 100%; text-align: center; transform: translateX(-50%) translateY(-50%);}
 #career .cw1 {margin-bottom: 150px;}
 #career .cw1 .cont-box {position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
-#career .cw1 .cont-box .img-box { width: 50%; height: 900px; background: url("/asset/img/cr1_bg.jpg")no-repeat center/cover; position: relative;}
+#career .cw1 .cont-box .img-box { width: 50%; height: 900px; background: url("/yangyujin-portfolio/asset/img/cr1_bg.jpg")no-repeat center/cover; position: relative;}
 #career .cw1 .cont-box .img-box img {max-width: 750px; width: 95%; position: absolute; display: block; left: 50%; bottom: 0; transform: translateX(-50%);}
 #career .cw1 .cont-box .txt-box {width: 50%; padding: 0 10%; box-sizing: border-box;}
 #career .cw1 .cont-box .txt-box .logo {}
@@ -150,7 +150,7 @@ body.noneScroll {overflow: hidden;}
 #career .cont-wrap .skill .cont p { margin-top: 25px; margin-right: 10%; width: 40%; max-width: 175px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
 #career .cont-wrap .skill .cont p span {vertical-align: middle;}
 #career .cont-wrap .skill .cont p .txt{color: rgba(0,0,0,0.4); display: inline-block; font-weight: 400;}
-#career .cont-wrap .skill .cont p .ico {display: inline-block; width: 20px; height: 20px; background: url("/asset/img/chk_bk.png")no-repeat center/contain;}
+#career .cont-wrap .skill .cont p .ico {display: inline-block; width: 20px; height: 20px; background: url("/yangyujin-portfolio/asset/img/chk_bk.png")no-repeat center/contain;}
 
 #career .cw1 .cont-box .more-btn {position: absolute; bottom: 50px;  left: 50%; transform: translateX(-50%); width: 400px;}
 #career .cw1 .cont-box .more-btn a {display: block; width: 100%; height: 100%;}
@@ -159,9 +159,9 @@ body.noneScroll {overflow: hidden;}
 #career .cw1 .cont-box .more-btn:after {content: ""; display: block; position: absolute; bottom: 0; left: 0; background-color: #111; width: 100%; height: 1px;}
 
 #career .cw1 .cb-r {-webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse;}
-#career .cw1 .cb-r.cb2 .img-box{background: url("/asset/img/cr2_bg.jpg")no-repeat center/cover;}
-#career .cw1 .cb-l.cb3 .img-box{background: url("/asset/img/cr3_bg.jpg")no-repeat center/cover;}
-#career .cw1 .cb-r.cb4 .img-box{background: url("/asset/img/cr4_bg.jpg")no-repeat center/cover;}
+#career .cw1 .cb-r.cb2 .img-box{background: url("/yangyujin-portfolio/asset/img/cr2_bg.jpg")no-repeat center/cover;}
+#career .cw1 .cb-l.cb3 .img-box{background: url("/yangyujin-portfolio/asset/img/cr3_bg.jpg")no-repeat center/cover;}
+#career .cw1 .cb-r.cb4 .img-box{background: url("/yangyujin-portfolio/asset/img/cr4_bg.jpg")no-repeat center/cover;}
 /* 
 #career .cw2 {display: -webkit-box; display: -ms-flexbox; display: flex; flex-wrap: wrap;} */
 #career .cw2 {width: 100%; height: 500px; overflow: hidden;-webkit-perspective: 1000; perspective: 1000; padding-right: 5%;}
@@ -170,7 +170,7 @@ body.noneScroll {overflow: hidden;}
 
 #career .cw2 .cont-box {display: -webkit-box; display: -ms-flexbox; display: flex; /* -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; */ -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative;}
 #career .cw2 .cont-box .img-box {height: 500px; width: 42%; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end;}
-#career .cw2 .cont-box .img-box:before {content: ""; display: block; width: 82%; background: url("/asset/img/etc_bg.jpg")no-repeat center/cover; height: 100%; position: absolute; top: 0;left: 0;}
+#career .cw2 .cont-box .img-box:before {content: ""; display: block; width: 82%; background: url("/yangyujin-portfolio/asset/img/etc_bg.jpg")no-repeat center/cover; height: 100%; position: absolute; top: 0;left: 0;}
 #career .cw2 .cont-box .img-box img {max-width: 515px; position: relative;}
 #career .cw2 .cont-box .txt-box {position: relative; padding-left: 8%; box-sizing: border-box; max-width: 700px;}
 #career .cw2 .cont-box .skill {margin-top: 30px;}
@@ -201,7 +201,7 @@ body.noneScroll {overflow: hidden;}
 
 #contact {padding-top: 180px; overflow: hidden;}
 #contact .cont-box {margin-top: 60px; padding: 90px 5%; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; box-sizing: border-box;}
-#contact .cont-box:before {content: ""; width: 500%; height: 100%; background: url("/asset/img/ctt_bg.jpg")repeat center/15%; position: absolute; top: 0; left: 0; display: block;;}
+#contact .cont-box:before {content: ""; width: 500%; height: 100%; background: url("/yangyujin-portfolio/asset/img/ctt_bg.jpg")repeat center/15%; position: absolute; top: 0; left: 0; display: block;;}
 #contact .cont-box > div {position: relative; z-index: 1;}
 #contact .cont-box .txt-box {width: 50%;}
 #contact .cont-box .txt-box p {position: relative; font-size: 30px; color: #fff; line-height: 150%; margin-top: 30px;}
