@@ -15,7 +15,7 @@ $(document).ready(function(){
 			})
 			.setPin("#main")
 			.setTween(mainAni)
-			.addIndicators() 
+			//.addIndicators() 
 			.addTo(controller);
 
 
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			})
 			.setPin("#about")
             .setClassToggle('#about','active')
-			.addIndicators({name:"about"}) 
+			//.addIndicators({name:"about"}) 
 			.addTo(controller);
 
 
@@ -42,7 +42,7 @@ $(document).ready(function(){
 				duration: "100%",
 			})
             .setTween(endAni)
-			.addIndicators({name:"skill-on"}) 
+			//.addIndicators({name:"skill-on"}) 
 			.addTo(controller);
 
             var skillAni = new TimelineMax()
@@ -55,7 +55,7 @@ $(document).ready(function(){
                 offset: "1000%",
 			})
             .setTween(skillAni)
-			.addIndicators({name:"skill-op"}) 
+			//.addIndicators({name:"skill-op"}) 
 			.addTo(controller);
 
             var bodyAni = new TimelineMax()
@@ -69,7 +69,7 @@ $(document).ready(function(){
 			.setPin("#skill-box")
             .setTween(bodyAni)
             .setClassToggle('#skill-box','active')
-			.addIndicators({name:"skill"}) 
+			//.addIndicators({name:"skill"}) 
 			.addTo(controller);
 
             var skillHeight = $('#skill-box').outerHeight();
@@ -86,7 +86,7 @@ $(document).ready(function(){
                 offset:skillHeight,
 			})
             .setTween(skAni)
-			.addIndicators({name:"skill-end-op"}) 
+			//.addIndicators({name:"skill-end-op"}) 
 			.addTo(controller);
 
             var titleAni = new TimelineMax()
@@ -99,7 +99,7 @@ $(document).ready(function(){
 			})
 			.setPin("#tit-box")
             .setTween(titleAni)
-			.addIndicators({name:"title"}) 
+			//.addIndicators({name:"title"}) 
 			.addTo(controller);
 
             var slides = document.querySelectorAll("#career .cw1 .cont-box");
@@ -113,7 +113,7 @@ $(document).ready(function(){
                     duration: "200%",
 				})
 				.setPin(slides[i], {pushFollowers: false})
-				.addIndicators({name:"career"}) // add indicators (requires plugin)
+				//.addIndicators({name:"career"}) // add indicators (requires plugin)
                 .setClassToggle(slides[i],'active')
 				.addTo(controller);
 		}
@@ -134,7 +134,7 @@ $(document).ready(function(){
 			})
 			.setPin("#pinContainer")
 			.setTween(wipeAnimation)
-			.addIndicators({name:"verti"}) 
+			//.addIndicators({name:"verti"}) 
 			.addTo(controller);
 
             var caAnimation = new TimelineMax()
@@ -147,7 +147,7 @@ $(document).ready(function(){
 				duration: "50%"
 			})
 			.setTween(caAnimation)
-			.addIndicators({name:"verti2"}) 
+			//.addIndicators({name:"verti2"}) 
 			.addTo(controller);
 
 
