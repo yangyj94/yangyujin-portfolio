@@ -11,6 +11,7 @@ body.noneScroll {overflow: hidden;}
  
 .progress-bar {width: 0%; height: 1px; background-color: rgba(255,255,255,.6); position: absolute; top: 50%; transform: translateY(-50%);}
 .progress-text {color: #fff; font-size: 50px; font-weight: 600; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); left: 50%;}
+.progress-ex {color:rgba(255,255,255,.4); font-size: 18px; text-align:center; max-width: 800px; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); line-height: 150%;}
  
 /* header s */
 #header {position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; height: 100px; transition: all .6s ease-in-out;}
