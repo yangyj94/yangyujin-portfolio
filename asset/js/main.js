@@ -168,14 +168,14 @@ var totalWid = wid*num;
 $('.list').width(totalWid); //()엔에 값이 없으면 선택자의 넓이 구해주고, 값이 있으면 ()안에 값으로 변경
 var mleft = 0;
 
-var timer = setInterval(move, 20);
+var timer = setInterval(move, 22);
 
 $('#listBox').on('mouseenter',function(){
     clearInterval(timer);
 });
  
  $('#listBox').on('mouseleave',function(){
-    timer = setInterval(move, 20);
+    timer = setInterval(move, 22);
  });
  
 
