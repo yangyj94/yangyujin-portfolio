@@ -162,6 +162,31 @@ function imageLoadingAfter() {
      /* $section1.find('.react_btn img').addClass('active');*/
   }
 
+  var wid = $('.list li').outerWidth();
+var num = $('.list li').length;
+var totalWid = wid*num;
+$('.list').width(totalWid); //()엔에 값이 없으면 선택자의 넓이 구해주고, 값이 있으면 ()안에 값으로 변경
+var mleft = 0;
+
+var timer = setInterval(move, 20);
+
+$('#listBox').on('mouseenter',function(){
+    clearInterval(timer);
+});
+ 
+ $('#listBox').on('mouseleave',function(){
+    timer = setInterval(move, 20);
+ });
+ 
+
+function move(){
+    mleft -= 2;
+    if (mleft < - wid) {
+        $('.list li').first().appendTo('.list');
+        mleft = 0;
+    }
+    $('.list').css({'left' : mleft});
+}
 
   var abPos = $('#main').outerHeight() * 2;
   var skPos = $('#main').outerHeight() * 2 + $('#about').outerHeight() * 3;

@@ -15,7 +15,6 @@
     <script src="/yangyujin-portfolio/asset/js/jquery.1.11.3.min.js"></script>
     <script src="/yangyujin-portfolio/asset/js/jquery-ui-1.11.4.min.js"></script>
     <script src="/yangyujin-portfolio/asset/js/wow.min.js"></script>
-    <script src="/yangyujin-portfolio/asset/js/jquery.simplyscroll.js"></script>
     <script src="/yangyujin-portfolio/asset/js/TweenMax.min.js"></script>
     <script src="/yangyujin-portfolio/asset/js/ScrollMagic.js"></script>
     <script src="/yangyujin-portfolio/asset/js/animation.gsap.min.js"></script>
@@ -52,22 +51,28 @@
         <div class="bg_img" id="bg-img">
             <img src="/yangyujin-portfolio/asset/img/main_bg.jpg" class="tilt-effect" data-tilt-options='{ "extraImgs" : 2, "opacity" : 0.7, "bgfixed" : false, "resetOnLeave" : false, "movement": { "perspective" : 1000, "translateX" : -10, "translateY" : -10, "translateZ" : 20, "rotateX" : 2, "rotateY" : 2, "rotateZ" : 2 } }' alt="grid01" />
         </div>
-         <div class="menu_box" id="scroll">
+         <!-- <div class="menu_box" id="scroll">
             <div class="cont"><a href="#about" class="nanum aboutMove">About</a></div>
             <div class="cont"><a href="#skill-box" class="nanum skillMove">Skill ability</a></div>
             <div class="cont"><a href="#tit-box" class="nanum careerMove">Career</a></div>
             <div class="cont"><a href="#contact" class="nanum cttMove">Contact</a></div>
-        </div> 
+        </div>  -->
 
-        <!-- <div class="menu_box" id="scroll">
-            <div class="cont nanum"><a href="#none">Welcome! Thanks for coming to view my portfolio.</a></div>
-            <div class="cont nanum"><a href="#none">Welcome! Thanks for coming to view my portfolio.</a></div>
-            <div class="cont nanum"><a href="#none">Welcome! Thanks for coming to view my portfolio.</a></div>
-            <div class="cont nanum"><a href="#none">Welcome! Thanks for coming to view my portfolio.</a></div>
-        </div> -->
+        <div id="listBox">
+            <ul class="list">
+                <li><a href="#about" class="nanum aboutMove">About</a></li>
+                <li><a href="#skill-box" class="nanum skillMove">Skill ability</a></li>
+                <li><a href="#tit-box" class="nanum careerMove">Career</a></li>
+                <li><a href="#contact" class="nanum cttMove">Contact</a></li>
+                <li><a href="#about" class="nanum aboutMove">About</a></li>
+                <li><a href="#skill-box" class="nanum skillMove">Skill ability</a></li>
+                <li><a href="#tit-box" class="nanum careerMove">Career</a></li>
+                <li><a href="#contact" class="nanum cttMove">Contact</a></li>		
+            </ul>
+            </div>
+
       
         <div class="bar"></div>
-        <!-- <div class="bt nanum">Web Designer &amp; Web Publisher</div> -->
         <div class="scDown"><span class="ico"></span><span class="txt nanum">Scroll Down</span></div>
     </div>
     <!-- 메인 e -->
@@ -851,19 +856,7 @@
     </div>
     </div>
     <!-- contact e -->
-    <style>
-        .scroll-test {position: fixed; top: 0; left: 0; background-color:red; width: 150px; height: 50px; z-index: 99999;}
-    </style>
-    <div class="scroll-test"></div>
-<script>
-
-
-    $(window).scroll(function(){
-
-        var st = $(window).scrollTop();
-        $('.scroll-test').html(st);
-    });
-</script>
+   
 
 </body>
 <script src="/yangyujin-portfolio/asset/js/tiltfx.js"></script>
