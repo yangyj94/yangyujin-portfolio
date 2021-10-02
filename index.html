@@ -851,7 +851,19 @@
     </div>
     </div>
     <!-- contact e -->
+    <style>
+        .scroll-test {position: fixed; top: 0; left: 0; background-color:red; width: 150px; height: 50px; z-index: 99999;}
+    </style>
+    <div class="scroll-test"></div>
+<script>
 
+
+    $(window).scroll(function(){
+
+        var st = $(window).scrollTop();
+        $('.scroll-test').html(st);
+    });
+</script>
 
 </body>
 <script src="/yangyujin-portfolio/asset/js/tiltfx.js"></script>
