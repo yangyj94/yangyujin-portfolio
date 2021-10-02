@@ -162,10 +162,10 @@ function imageLoadingAfter() {
      /* $section1.find('.react_btn img').addClass('active');*/
   }
 
-  var wid = $('.list li').outerWidth();
-var num = $('.list li').length;
+  var wid = $('.list-ul li').outerWidth();
+var num = $('.list-ul li').length;
 var totalWid = wid*num;
-$('.list').width(totalWid); //()엔에 값이 없으면 선택자의 넓이 구해주고, 값이 있으면 ()안에 값으로 변경
+$('.list-ul').width(totalWid); //()엔에 값이 없으면 선택자의 넓이 구해주고, 값이 있으면 ()안에 값으로 변경
 var mleft = 0;
 
 var timer = setInterval(move, 22);
@@ -182,10 +182,10 @@ $('#listBox').on('mouseenter',function(){
 function move(){
     mleft -= 2;
     if (mleft < - wid) {
-        $('.list li').first().appendTo('.list');
+        $('.list-ul li').first().appendTo('.list-ul');
         mleft = 0;
     }
-    $('.list').css({'left' : mleft});
+    $('.list-ul').css({'left' : mleft});
 }
 
   var abPos = $('#main').outerHeight() * 2;
@@ -193,7 +193,7 @@ function move(){
   var crPos = $('#main').outerHeight() * 2 + $('#about').outerHeight() * 3 + $('#skill-box').outerHeight() * 2.5;
   var ctPos = $(document).height();
 
-  $('.menu-box a').click(function(e){
+  $('#listBox a').click(function(e){
       e.preventDefault();
   });
 
